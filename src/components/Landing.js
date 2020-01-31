@@ -107,7 +107,7 @@ export default class Landing extends Component {
                     <Card projectImage='fridgefood.png' projectDescription='To create Fridge Food I worked with 2 other software engineers and UX designers. We created an app that allows one to search ingredients one has in their fridge with any food restrictions. The results will be possible recipes one is able to create with the given ingredients.' projectName='Fridge Food' githubLink='https://github.com/pryan-x/Fridge-Food' 
                     siteLink='https://fridgefood.surge.sh'
                     />
-                    <Card projectImage='pawsibly.png' projectDescription='Pawsibly is an IOS app I made using React Native. It has full authentication, allowing one to save search filters. These filters then allow one to find adoptable pets within their given search parameters, such as: gender, breed, and distance' projectName='Pawsibly' githubLink='https://github.com/pryan-x/SteamReviews' 
+                    <Card projectImage='pawsibly.png' projectDescription='Pawsibly is an IOS app I made using React Native. It has full authentication, allowing one to save search filters. These filters then allow one to find adoptable pets within their given search parameters, such as: gender, breed, and distance' projectName='Pawsibly' githubLink='https://github.com/pryan-x/Pawsibly' 
                     // siteLink='https://steamreview.surge.sh'
                     />
                 </section>
