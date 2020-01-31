@@ -1,0 +1,210 @@
+main {
+    padding-top: 54px;
+}
+
+.background-image {
+    background-image: url('../resources/background.jpg');
+    background-position-x: -750px;
+    background-size: 2000px 700px;
+    background-position-y: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.profile {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+    border: 12px solid white;
+}
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 1000px; */
+    /* background-color: white; */
+    padding-top: 40px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: inset 0 -12px 15px -12px #888888;
+
+}
+.about {
+    /* display: flex; */
+    padding: 10px 60px;
+    max-width: 700px;
+}
+/* .about-text {
+    display: flex;
+    flex-direction: column;
+} */
+.hello {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 20px 35px 0;
+}
+.welcome-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+    /* width: 820px; */
+}
+i {
+    margin: 20px 15px;
+}
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 50px 0;
+    /* box-shadow: 0 2px 15px 2px #888888; */
+}
+.project-header {
+    padding: 30px 0 30px 300px;
+    margin: unset;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: left;
+    /* border-bottom: ; */
+    /* box-shadow: 0 12px 15px -12px #888888; */
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 50px 0;
+    box-shadow: inset 0 2px 15px 2px #888888;
+    background-color: rgb(240, 240, 240);
+
+}
+.contact-header {
+    padding: 30px 0 30px 300px;
+    margin: unset;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: left;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-top: 15px;
+    padding: 0 25px;
+}
+.contacts-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 200px;
+    margin: 0 30px;
+}
+.contacts-right {
+    margin: 0 30px;
+    width: 200px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    height: 60px;
+    margin: 15px 0;
+}
+.contact-icon {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    color: black;
+}
+.contacts-left :last-child img {
+    height: 55px;
+    width:55px;
+    margin-left: 5px;
+}
+.contacts-left :first-child img {
+    margin-left: 3px;
+}
+.contacts-right :first-child img {
+    margin: 0 15px 0 5px;
+}
+.contacts-right img {
+    height: 55px;
+    width:55px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1100px) {
+    .contact-container {
+        width: 80%;
+    }
+}
+
+/* @media (max-width: 900px) {
+
+} */
+
+@media (max-width: 700px) {
+    .contact-container {
+        width: 90%;
+    }
+    .contact-header {
+        font-size: 40px;
+    }
+    .project-header {
+        font-size: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .profile {
+        float: none;
+        margin: unset;
+    }
+    .contact-header {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .project-header {
+        padding: 15px 0;
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .contact-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px) {
+    main {
+        padding-top: 47px;
+    }
+}
+@media (max-width: 520px) {
+    main {
+        padding-top: 41px;
+    }
+}
+@media (max-width: 410px) {
+    main {
+        padding-top: 36px;
+    }
+}
