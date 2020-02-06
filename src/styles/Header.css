@@ -75,28 +75,28 @@ nav {
 
 @media (max-width: 620px) {
     .name {
-        font-size: 25px;
+        font-size: 20px;
     }
     .navlinks {
         font-size: 18px;
         margin: 0 10px;
     }
 }
-@media (max-width: 520px) {
+@media (max-width: 530px) {
     .name {
-        font-size: 20px;
+        font-size: 18px;
         margin: 0 4px 0 8px;
     }
     .navlinks {
-        font-size: 15px;
-        margin: 0 5px;
+        font-size: 14px;
+        margin: 0 4px;
     }
 }
 @media (max-width: 410px) {
     .name {
-        font-size: 16px;
+        font-size: 15px;
     }
     .navlinks {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
