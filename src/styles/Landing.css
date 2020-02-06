@@ -186,6 +186,9 @@ i {
         padding: 15px 0;
         text-align: center;
     }
+    .about {
+        padding: 10px 20px;
+    }
 }
 @media (max-width: 500px) {
     .contact-container {
@@ -196,6 +199,9 @@ i {
 @media (max-width: 620px) {
     main {
         padding-top: 47px;
+    }
+    .welcome-text {
+        font-size: 18px;
     }
 }
 @media (max-width: 520px) {
