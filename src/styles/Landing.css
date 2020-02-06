@@ -25,7 +25,7 @@ main {
     align-items: center;
     /* height: 1000px; */
     /* background-color: white; */
-    padding-top: 40px;
+    padding-top: 30px;
     background-color: rgb(240, 240, 240);
     box-shadow: inset 0 -12px 15px -12px #888888;
 
@@ -156,6 +156,9 @@ i {
     .contact-container {
         width: 80%;
     }
+    .about-section {
+        padding-top: 20px;
+    }
 }
 
 /* @media (max-width: 900px) {
@@ -198,15 +201,23 @@ i {
 
 @media (max-width: 620px) {
     main {
-        padding-top: 47px;
+        padding-top: 42px;
     }
     .welcome-text {
         font-size: 18px;
     }
+    .about-section {
+        padding-top: 10px;
+    }
 }
-@media (max-width: 520px) {
+@media (max-width: 530px) {
     main {
-        padding-top: 41px;
+        padding-top: 39px;
+    }
+}
+@media (max-width: 430px) {
+    main {
+        padding-top: 36px;
     }
 }
 @media (max-width: 410px) {
