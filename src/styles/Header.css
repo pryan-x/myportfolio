@@ -98,5 +98,6 @@ nav {
     }
     .navlinks {
         font-size: 11px;
+        margin: 0 4px 0 0;
     }
 }
