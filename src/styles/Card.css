@@ -88,7 +88,12 @@
     font-size: 22px;
     width: 100%;
     line-height: 35px;
-    margin-top: 35px;
+    /* margin-top: 35px; */
+    margin: unset;
+}
+
+.description-container :last-child {
+    margin-top: 15px;
 }
 
 @media (max-width: 1140px) {
@@ -114,7 +119,7 @@
 } 
 @media (max-width: 620px) {
     .description-text {
-        font-size: 19px;
+        font-size: 17px;
     }
 }
 @media (max-width: 550px) {

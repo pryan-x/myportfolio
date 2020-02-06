@@ -17,7 +17,9 @@ export default function Card (props) {
             </div>
             <div className='description-container'>
                 {/* <p className='description'>Description:</p> */}
-            <p className='description-text'>{props.projectDescription}</p></div>
+            <p className='description-text'>{props.projectDescription}</p>
+            <p className='description-text'>{props.projectDescription2}</p>
+            </div>
             
             </div>
         </div>
