@@ -84,6 +84,9 @@ nav {
     }
 }
 @media (max-width: 530px) {
+    nav { 
+        padding-left: 10px;
+    }
     .name {
         font-size: 18px;
         margin: 0 4px 0 8px;
