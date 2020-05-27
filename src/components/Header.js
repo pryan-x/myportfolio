@@ -10,7 +10,7 @@ export default () => {
                 </div>
             </div>
             <div className='navright'>
-                <td className='navlinks underline' style={{cursor: 'pointer'}} onClick={()=> window.open("https://docdro.id/HhzRzor", "_blank")}>RESUME</td>
+                <td className='navlinks underline' style={{cursor: 'pointer'}} onClick={()=> window.open("https://docdro.id/mzT7FCp", "_blank")}>RESUME</td>
                 <a href='#work' className='navlinks underline'>WORK</a>
                 <a href='#contact' className='navlinks underline'>CONTACT</a>
             </div>
