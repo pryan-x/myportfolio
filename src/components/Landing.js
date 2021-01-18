@@ -109,6 +109,17 @@ export default class Landing extends Component {
                     <Card projectImage='pawsibly.png' projectDescription={`Pawsibly is an IOS app I made using React Native. It has hand-rolled full authentication, allowing one to save search filters. These filters then allow one to find adoptable pets within their given search parameters, such as: gender, breed, and distance.`} projectDescription2='Technologies Used: React-Native, Expo, CSS, Ruby, Rails, bCrypt.' projectName='Pawsibly' githubLink='https://github.com/pryan-x/Pawsibly' 
                     // siteLink='https://steamreview.surge.sh'
                     />
+                     <Card 
+                    //  projectImage='mygamelist.png'
+                      projectDescription={`Feature engineering script that utilizes stock symbols and dates from features to create labels for training and testing datasets. The script consolidates and transforms large datasets into a usable format with Pandas for 
+                      training a LightGBM model, which is used in formulating stock trading strategies, and then exports results into csv files.
+                      Through tweaking parameters and size of training sets, the correlation coefficient of the model reached a consistent .4 across multiple labels, which is on par with (if not above) industry standards for algorithms that use market indicators to predict stock price movements.`} projectDescription2='Technologies Used: Python, LightGBM, Pandas, Excel, MatPlotLib, NumPy, Backtrader.' projectName='Stock Pricing Model - Private Github(nolink)' 
+                    //   githubLink='https://github.com/pryan-x/MyGameList' 
+                    // siteLink='https://steamreview.surge.sh'
+                    />
+                    <Card projectImage='mygamelist.png' projectDescription={`MyGameList is a WIP web app that currently has full authentication, and retrieves game data from the IGDB API rendering a home page with a variety of carousels to see trending games and trailers. It will have review and rating functionality, and the ability to create ones own list of video games played to track all your games from different platforms in once place.`} projectDescription2='Technologies Used: React, CSS, Javascript, Express, SQL, PostgreSQL, bCrypt, Passport.' projectName='MyGameList' githubLink='https://github.com/pryan-x/MyGameList' 
+                    // siteLink='https://steamreview.surge.sh'
+                    />
                 </section>
                 <section id='contact' className='contact-section'>
                     <p className='contact-header'>Contact Me</p>
