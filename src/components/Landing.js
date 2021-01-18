@@ -113,7 +113,7 @@ export default class Landing extends Component {
                     //  projectImage='mygamelist.png'
                       projectDescription={`Feature engineering script that utilizes stock symbols and dates from features to create labels for training and testing datasets. The script consolidates and transforms large datasets into a usable format with Pandas for 
                       training a LightGBM model, which is used in formulating stock trading strategies, and then exports results into csv files.
-                      Through tweaking parameters and size of training sets, the correlation coefficient of the model reached a consistent .4 across multiple labels, which is on par with (if not above) industry standards for algorithms that use market indicators to predict stock price movements.`} projectDescription2='Technologies Used: Python, LightGBM, Pandas, Excel, MatPlotLib, NumPy, Backtrader.' projectName='Stock Pricing Model - Private Github(nolink)' 
+                      Through tweaking parameters and size of training sets, the correlation coefficient of the model reached a consistent .4 across multiple labels, which is on par with (if not above) industry standards for algorithms that use market indicators to predict stock price movements.`} projectDescription2='Technologies Used: Python, LightGBM, Pandas, Excel, MatPlotLib, NumPy, Backtrader.' projectName='Stock Pricing Model - Private Github (no link)' 
                     //   githubLink='https://github.com/pryan-x/MyGameList' 
                     // siteLink='https://steamreview.surge.sh'
                     />

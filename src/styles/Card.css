@@ -43,10 +43,16 @@
     /* transition: all 0.4s ease; */
 }
 .card-container {
+    border-bottom: 1px solid rgba(0,0,0,.25);
+
     background-color:rgba(0,0,0,.04);
-    box-shadow: 1px 1px 8px 4px #d0d0d0;
+    /* box-shadow: 1px 1px 8px 4px #d0d0d0; */
     margin: 25px 0;
-    padding: 15px 0 50px 0;
+    padding: 20px 0 50px 0;
+    /* padding-top: unset;
+    padding-bottom: unset; */
+    margin-top: unset;
+    margin-bottom: unset;
     width: 100%;
 }
 .description-container {
