@@ -100,16 +100,10 @@ export default class Landing extends Component {
                 <section id='work' className='project-section'>
                 {/* projectNumber, projectName, projectDescription, githubLink, siteLink */}
                     <p className='project-header'>My Work</p>
-                    <Card projectImage='steamreviews.png' projectDescription={`This is a website where one can add games by searching through Steams API data and add them to a gallery. From the game gallery one is then able to navigate to a page will full details and screenshots of the game.`} projectDescription2='Technologies Used: React, CSS, Javascript.' projectName='Steam Reviews' githubLink='https://github.com/pryan-x/SteamReviews' siteLink='https://steamreview.surge.sh'/>
-                    <Card projectImage='richord.png' projectDescription={`In this project I worked in a team of three to create a website with hand-rolled full authentication. With Richord one is able to create a track using the key of C, and then save it to ones personal library of tracks with full playback pause and stop.`} projectDescription2='Technologies Used: React, CSS, Javascript, Express, bCrypt..'projectName='RICHORD' githubLink='https://github.com/ipsita999/RICHORD-APP' siteLink='http://richord.surge.sh/'
-                    />
-                    <Card projectImage='fridgefood.png' projectDescription={`To create Fridge Food I worked with 2 other software engineers and UX designers. We created an app that allows one to search ingredients one has in their fridge with any food restrictions. The results will be possible recipes one is able to create with the given ingredients.`} projectDescription2='Technologies Used: React, CSS, Javascript.' projectName='Fridge Food' githubLink='https://github.com/pryan-x/Fridge-Food' 
-                    siteLink='https://fridgefood.surge.sh'
-                    />
-                    <Card projectImage='pawsibly.png' projectDescription={`Pawsibly is an IOS app I made using React Native. It has hand-rolled full authentication, allowing one to save search filters. These filters then allow one to find adoptable pets within their given search parameters, such as: gender, breed, and distance.`} projectDescription2='Technologies Used: React-Native, Expo, CSS, Ruby, Rails, bCrypt.' projectName='Pawsibly' githubLink='https://github.com/pryan-x/Pawsibly' 
+                    <Card projectImage='mygamelist.png' projectDescription={`MyGameList is a WIP web app that currently has full authentication, and retrieves game data from the IGDB API rendering a home page with a variety of carousels to see trending games and trailers. It will have review and rating functionality, and the ability to create ones own list of video games played to track all your games from different platforms in once place.`} projectDescription2='Technologies Used: React, CSS, Javascript, Express, SQL, PostgreSQL, bCrypt, Passport.' projectName='MyGameList' githubLink='https://github.com/pryan-x/MyGameList' 
                     // siteLink='https://steamreview.surge.sh'
                     />
-                     <Card 
+                      <Card 
                     //  projectImage='mygamelist.png'
                       projectDescription={`Feature engineering script that utilizes stock symbols and dates from features to create labels for training and testing datasets. The script consolidates and transforms large datasets into a usable format with Pandas for 
                       training a LightGBM model, which is used in formulating stock trading strategies, and then exports results into csv files.
@@ -117,9 +111,20 @@ export default class Landing extends Component {
                     //   githubLink='https://github.com/pryan-x/MyGameList' 
                     // siteLink='https://steamreview.surge.sh'
                     />
-                    <Card projectImage='mygamelist.png' projectDescription={`MyGameList is a WIP web app that currently has full authentication, and retrieves game data from the IGDB API rendering a home page with a variety of carousels to see trending games and trailers. It will have review and rating functionality, and the ability to create ones own list of video games played to track all your games from different platforms in once place.`} projectDescription2='Technologies Used: React, CSS, Javascript, Express, SQL, PostgreSQL, bCrypt, Passport.' projectName='MyGameList' githubLink='https://github.com/pryan-x/MyGameList' 
+                     <Card projectImage='pawsibly.png' projectDescription={`Pawsibly is an IOS app I made using React Native. It has hand-rolled full authentication, allowing one to save search filters. These filters then allow one to find adoptable pets within their given search parameters, such as: gender, breed, and distance.`} projectDescription2='Technologies Used: React-Native, Expo, CSS, Ruby, Rails, bCrypt.' projectName='Pawsibly' githubLink='https://github.com/pryan-x/Pawsibly' 
                     // siteLink='https://steamreview.surge.sh'
                     />
+                    <Card projectImage='pawsibly.png' projectDescription={`Pawsibly is an IOS app I made using React Native. It has hand-rolled full authentication, allowing one to save search filters. These filters then allow one to find adoptable pets within their given search parameters, such as: gender, breed, and distance.`} projectDescription2='Technologies Used: React-Native, Expo, CSS, Ruby, Rails, bCrypt.' projectName='Pawsibly' githubLink='https://github.com/pryan-x/Pawsibly' 
+                    // siteLink='https://steamreview.surge.sh'
+                    />
+                     <Card projectImage='richord.png' projectDescription={`In this project I worked in a team of three to create a website with hand-rolled full authentication. With Richord one is able to create a track using the key of C, and then save it to ones personal library of tracks with full playback pause and stop.`} projectDescription2='Technologies Used: React, CSS, Javascript, Express, bCrypt..'projectName='RICHORD' githubLink='https://github.com/ipsita999/RICHORD-APP' siteLink='http://richord.surge.sh/'
+                    />
+                    <Card projectImage='steamreviews.png' projectDescription={`This is a website where one can add games by searching through Steams API data and add them to a gallery. From the game gallery one is then able to navigate to a page will full details and screenshots of the game.`} projectDescription2='Technologies Used: React, CSS, Javascript.' projectName='Steam Reviews' githubLink='https://github.com/pryan-x/SteamReviews' siteLink='https://steamreview.surge.sh'/>
+                    <Card projectImage='fridgefood.png' projectDescription={`To create Fridge Food I worked with 2 other software engineers and UX designers. We created an app that allows one to search ingredients one has in their fridge with any food restrictions. The results will be possible recipes one is able to create with the given ingredients.`} projectDescription2='Technologies Used: React, CSS, Javascript.' projectName='Fridge Food' githubLink='https://github.com/pryan-x/Fridge-Food' 
+                    siteLink='https://fridgefood.surge.sh'
+                    />
+                
+                   
                 </section>
                 <section id='contact' className='contact-section'>
                     <p className='contact-header'>Contact Me</p>
